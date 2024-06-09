@@ -1,0 +1,173 @@
+2024-03-19 18:46:33.205 +01:00 [INF] Executed DbCommand (129ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-19 18:46:33.403 +01:00 [INF] Executed DbCommand (163ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-19 18:46:33.528 +01:00 [INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-19 18:46:33.684 +01:00 [INF] Executed DbCommand (151ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-19 18:46:33.829 +01:00 [INF] Executed DbCommand (126ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-03-19 18:46:33.848 +01:00 [INF] No migrations were applied. The database is already up to date.
+2024-03-19 17:47:09.258 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2024-03-19 17:47:09.288 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-03-19 17:47:09.325 +00:00 [INF] Creating key {9d5155f6-0e0a-4732-8810-20e1d92f4747} with creation date 2024-03-19 17:47:09Z, activation date 2024-03-19 17:47:09Z, and expiration date 2024-06-17 17:47:09Z.
+2024-03-19 17:47:09.333 +00:00 [WRN] No XML encryptor configured. Key {9d5155f6-0e0a-4732-8810-20e1d92f4747} may be persisted to storage in unencrypted form.
+2024-03-19 17:47:09.336 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-9d5155f6-0e0a-4732-8810-20e1d92f4747.xml'.
+2024-03-19 17:47:09.370 +00:00 [INF] Now listening on: http://[::]:80
+2024-03-19 17:47:09.372 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-19 17:47:09.373 +00:00 [INF] Hosting environment: Production
+2024-03-19 17:47:09.373 +00:00 [INF] Content root path: /app
+2024-03-19 17:47:20.840 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/Obras - -
+2024-03-19 17:47:20.859 +00:00 [WRN] Failed to determine the https port for redirect.
+2024-03-19 17:47:20.879 +00:00 [INF] CORS policy execution successful.
+2024-03-19 17:47:20.883 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api)'
+2024-03-19 17:47:20.898 +00:00 [INF] Route matched with {action = "GetAll", controller = "Obras"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ActuArte.Models.Obras]] GetAll() on controller ActuArte.Controllers.ObrasController (ActuArte.Api).
+2024-03-19 17:47:22.307 +00:00 [INF] Executed DbCommand (148ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[idObra], [o].[aclamadas], [o].[autorObra], [o].[descObra], [o].[directorObra], [o].[duracionObra], [o].[imagen], [o].[nombreObra], [o].[recientes], [o].[ultimasSesiones], [o].[valoracionObra]
+FROM [Obras] AS [o]
+2024-03-19 17:47:22.352 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ActuArte.Models.Obras, ActuArte.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 17:47:22.406 +00:00 [INF] Executed action ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api) in 1506.2074ms
+2024-03-19 17:47:22.407 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api)'
+2024-03-19 17:47:22.413 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/Obras - - - 200 - application/json;+charset=utf-8 1574.4288ms
+2024-03-19 18:24:17.964 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 18:24:18.019 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 56.1541ms
+2024-03-19 18:24:18.115 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 18:24:18.193 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.3652ms
+2024-03-19 18:35:24.434 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 18:35:24.436 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 1.6420ms
+2024-03-19 18:35:24.445 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - -
+2024-03-19 18:35:24.447 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - -
+2024-03-19 18:35:24.451 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - -
+2024-03-19 18:35:24.463 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-19 18:35:24.463 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-19 18:35:24.466 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - - - 200 144929 text/css 20.2035ms
+2024-03-19 18:35:24.466 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 14.9807ms
+2024-03-19 18:35:24.466 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-19 18:35:24.467 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 19.8081ms
+2024-03-19 18:35:24.591 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 18:35:24.595 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - -
+2024-03-19 18:35:24.595 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-19 18:35:24.596 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - - - 200 628 image/png 1.4179ms
+2024-03-19 18:35:24.597 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.8978ms
+2024-03-19 18:35:39.409 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8001/Usuarios/login application/json 61
+2024-03-19 18:35:39.412 +00:00 [INF] CORS policy execution failed.
+2024-03-19 18:35:39.413 +00:00 [INF] Request origin http://localhost:8001 does not have permission to access the resource.
+2024-03-19 18:35:39.414 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.UsuariosController.Login (ActuArte.Api)'
+2024-03-19 18:35:39.422 +00:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ActuArte.Models.LoginModel) on controller ActuArte.Controllers.UsuariosController (ActuArte.Api).
+2024-03-19 18:35:40.308 +00:00 [INF] Executed DbCommand (161ms) [Parameters=[@__nombreUsuario_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[idUsuario], [u].[nombreUsuario], [u].[passwordUsuario]
+FROM [Usuarios] AS [u]
+WHERE [u].[nombreUsuario] = @__nombreUsuario_0
+2024-03-19 18:35:40.311 +00:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2024-03-19 18:35:40.312 +00:00 [INF] Executed action ActuArte.Controllers.UsuariosController.Login (ActuArte.Api) in 889.3548ms
+2024-03-19 18:35:40.312 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.UsuariosController.Login (ActuArte.Api)'
+2024-03-19 18:35:40.313 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8001/Usuarios/login application/json 61 - 401 - text/plain;+charset=utf-8 903.2563ms
+2024-03-19 18:36:01.450 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8001/Usuarios/login application/json 60
+2024-03-19 18:36:01.451 +00:00 [INF] CORS policy execution failed.
+2024-03-19 18:36:01.452 +00:00 [INF] Request origin http://localhost:8001 does not have permission to access the resource.
+2024-03-19 18:36:01.452 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.UsuariosController.Login (ActuArte.Api)'
+2024-03-19 18:36:01.453 +00:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ActuArte.Models.LoginModel) on controller ActuArte.Controllers.UsuariosController (ActuArte.Api).
+2024-03-19 18:36:01.768 +00:00 [INF] Executed DbCommand (270ms) [Parameters=[@__nombreUsuario_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[idUsuario], [u].[nombreUsuario], [u].[passwordUsuario]
+FROM [Usuarios] AS [u]
+WHERE [u].[nombreUsuario] = @__nombreUsuario_0
+2024-03-19 18:36:01.771 +00:00 [INF] Usuario correcto
+2024-03-19 18:36:01.772 +00:00 [INF] Executing OkObjectResult, writing value of type 'ActuArte.Models.Usuarios'.
+2024-03-19 18:36:01.773 +00:00 [INF] Executed action ActuArte.Controllers.UsuariosController.Login (ActuArte.Api) in 320.206ms
+2024-03-19 18:36:01.774 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.UsuariosController.Login (ActuArte.Api)'
+2024-03-19 18:36:01.775 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8001/Usuarios/login application/json 60 - 200 - application/json;+charset=utf-8 324.4784ms
+2024-03-19 18:36:55.821 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8001/Usuarios/login application/json 61
+2024-03-19 18:36:55.821 +00:00 [INF] CORS policy execution failed.
+2024-03-19 18:36:55.822 +00:00 [INF] Request origin http://localhost:8001 does not have permission to access the resource.
+2024-03-19 18:36:55.822 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.UsuariosController.Login (ActuArte.Api)'
+2024-03-19 18:36:55.823 +00:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ActuArte.Models.LoginModel) on controller ActuArte.Controllers.UsuariosController (ActuArte.Api).
+2024-03-19 18:36:56.001 +00:00 [INF] Executed DbCommand (174ms) [Parameters=[@__nombreUsuario_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[idUsuario], [u].[nombreUsuario], [u].[passwordUsuario]
+FROM [Usuarios] AS [u]
+WHERE [u].[nombreUsuario] = @__nombreUsuario_0
+2024-03-19 18:36:56.002 +00:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2024-03-19 18:36:56.003 +00:00 [INF] Executed action ActuArte.Controllers.UsuariosController.Login (ActuArte.Api) in 180.0883ms
+2024-03-19 18:36:56.004 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.UsuariosController.Login (ActuArte.Api)'
+2024-03-19 18:36:56.005 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8001/Usuarios/login application/json 61 - 401 - text/plain;+charset=utf-8 184.0091ms
+2024-03-19 18:53:05.163 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 18:53:05.164 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 1.3175ms
+2024-03-19 18:53:05.173 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - -
+2024-03-19 18:53:05.173 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - -
+2024-03-19 18:53:05.175 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - -
+2024-03-19 18:53:05.175 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-19 18:53:05.175 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-19 18:53:05.176 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - - - 200 144929 text/css 2.5367ms
+2024-03-19 18:53:05.176 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-19 18:53:05.176 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 2.7560ms
+2024-03-19 18:53:05.177 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 1.9087ms
+2024-03-19 18:53:05.289 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 18:53:05.293 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.9779ms
+2024-03-19 18:53:05.300 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - -
+2024-03-19 18:53:05.300 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-19 18:53:05.301 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - - - 200 628 image/png 0.9939ms
+2024-03-19 18:53:13.471 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 18:53:13.473 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 1.5213ms
+2024-03-19 18:53:13.482 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - -
+2024-03-19 18:53:13.482 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - -
+2024-03-19 18:53:13.482 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - -
+2024-03-19 18:53:13.484 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-19 18:53:13.484 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-19 18:53:13.484 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - - - 200 144929 text/css 1.8268ms
+2024-03-19 18:53:13.485 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 2.3556ms
+2024-03-19 18:53:13.486 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-19 18:53:13.486 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 3.4534ms
+2024-03-19 18:53:13.555 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 18:53:13.557 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - -
+2024-03-19 18:53:13.558 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-19 18:53:13.558 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - - - 200 628 image/png 0.9727ms
+2024-03-19 18:53:13.559 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.2902ms
+2024-03-19 18:54:19.648 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 18:54:19.649 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 1.1931ms
+2024-03-19 18:54:19.657 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - -
+2024-03-19 18:54:19.658 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - -
+2024-03-19 18:54:19.658 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - -
+2024-03-19 18:54:19.659 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-19 18:54:19.659 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-19 18:54:19.659 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 1.5435ms
+2024-03-19 18:54:19.659 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - - - 200 144929 text/css 1.8191ms
+2024-03-19 18:54:19.661 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-19 18:54:19.661 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 3.3214ms
+2024-03-19 18:54:19.727 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 18:54:19.728 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - -
+2024-03-19 18:54:19.729 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-19 18:54:19.730 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - - - 200 628 image/png 1.0719ms
+2024-03-19 18:54:19.732 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.4791ms
+2024-03-19 18:55:25.753 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8001/Usuarios/login application/json 60
+2024-03-19 18:55:25.753 +00:00 [INF] CORS policy execution failed.
+2024-03-19 18:55:25.754 +00:00 [INF] Request origin http://localhost:8001 does not have permission to access the resource.
+2024-03-19 18:55:25.754 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.UsuariosController.Login (ActuArte.Api)'
+2024-03-19 18:55:25.755 +00:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ActuArte.Models.LoginModel) on controller ActuArte.Controllers.UsuariosController (ActuArte.Api).
+2024-03-19 18:55:26.454 +00:00 [INF] Executed DbCommand (147ms) [Parameters=[@__nombreUsuario_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[idUsuario], [u].[nombreUsuario], [u].[passwordUsuario]
+FROM [Usuarios] AS [u]
+WHERE [u].[nombreUsuario] = @__nombreUsuario_0
+2024-03-19 18:55:26.456 +00:00 [INF] Usuario correcto
+2024-03-19 18:55:26.457 +00:00 [INF] Executing OkObjectResult, writing value of type 'ActuArte.Models.Usuarios'.
+2024-03-19 18:55:26.459 +00:00 [INF] Executed action ActuArte.Controllers.UsuariosController.Login (ActuArte.Api) in 703.0837ms
+2024-03-19 18:55:26.460 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.UsuariosController.Login (ActuArte.Api)'
+2024-03-19 18:55:26.461 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8001/Usuarios/login application/json 60 - 200 - application/json;+charset=utf-8 708.0143ms
+2024-03-19 18:55:57.859 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 18:55:57.859 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 0.9040ms
+2024-03-19 18:55:57.869 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - -
+2024-03-19 18:55:57.869 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - -
+2024-03-19 18:55:57.869 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - -
+2024-03-19 18:55:57.871 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-19 18:55:57.871 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-19 18:55:57.871 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 1.9644ms
+2024-03-19 18:55:57.871 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - - - 200 144929 text/css 2.1333ms
+2024-03-19 18:55:57.873 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-19 18:55:57.873 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 3.8722ms
+2024-03-19 18:55:57.983 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 18:55:57.986 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.3681ms
+2024-03-19 18:55:57.995 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - -
+2024-03-19 18:55:57.996 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-19 18:55:57.996 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - - - 200 628 image/png 1.0031ms
+2024-03-19 18:56:07.137 +00:00 [INF] Application is shutting down...

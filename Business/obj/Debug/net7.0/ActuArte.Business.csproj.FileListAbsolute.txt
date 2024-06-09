@@ -1,0 +1,85 @@
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\bin\Debug\net7.0\ActuArte.Business.deps.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\bin\Debug\net7.0\ActuArte.Business.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\bin\Debug\net7.0\ActuArte.Business.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\ActuArte.Business.csproj.AssemblyReference.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\ActuArte.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfoInputs.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfo.cs
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\ActuArte.Business.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\refint\ActuArte.Business.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\ActuArte.Business.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\ref\ActuArte.Business.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\bin\Debug\net7.0\ActuArte.Data.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\bin\Debug\net7.0\ActuArte.Models.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\bin\Debug\net7.0\ActuArte.Models.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\bin\Debug\net7.0\ActuArte.Data.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CopyComplete
+C:\Users\PC\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Business.deps.json
+C:\Users\PC\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Business.dll
+C:\Users\PC\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\PC\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\PC\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\PC\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\PC\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfo.cs
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CopyComplete
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.dll
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\refint\ActuArte.Business.dll
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\PC\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ref\ActuArte.Business.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Business.deps.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Business.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.csproj.AssemblyReference.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfoInputs.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfo.cs
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CoreCompileInputs.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CopyComplete
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\refint\ActuArte.Business.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Business\obj\Debug\net7.0\ref\ActuArte.Business.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Business.deps.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Business.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.csproj.AssemblyReference.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfoInputs.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfo.cs
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CoreCompileInputs.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CopyComplete
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\refint\ActuArte.Business.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Business\obj\Debug\net7.0\ref\ActuArte.Business.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\bin\Debug\net7.0\ActuArte.Business.deps.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\bin\Debug\net7.0\ActuArte.Business.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\bin\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\ActuArte.Business.csproj.AssemblyReference.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\ActuArte.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfoInputs.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\ActuArte.Business.AssemblyInfo.cs
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CoreCompileInputs.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\ActuArte.Business.csproj.CopyComplete
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\ActuArte.Business.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\refint\ActuArte.Business.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Business\obj\Debug\net7.0\ref\ActuArte.Business.dll

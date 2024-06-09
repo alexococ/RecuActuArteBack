@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nhVkBL2kxW5rhE/CWvTI575wRQNxAaqAllI+E5P8Wvk=",
+  "Source": "ActuArte.Api",
+  "BasePath": "_content/ActuArte.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

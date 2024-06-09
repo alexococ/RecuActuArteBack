@@ -1,0 +1,17 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ActuArte.Api
+build_property.RootNamespace = ActuArte.Api
+build_property.ProjectDir = C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api
+build_property._RazorSourceGeneratorDebug = 

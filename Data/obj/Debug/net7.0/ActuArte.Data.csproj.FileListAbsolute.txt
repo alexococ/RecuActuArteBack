@@ -1,0 +1,85 @@
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\bin\Debug\net7.0\ActuArte.Data.deps.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\bin\Debug\net7.0\ActuArte.Data.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\bin\Debug\net7.0\ActuArte.Data.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ActuArte.Data.csproj.AssemblyReference.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ActuArte.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfoInputs.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfo.cs
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ActuArte.Data.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\refint\ActuArte.Data.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ActuArte.Data.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ref\ActuArte.Data.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\bin\Debug\net7.0\ActuArte.Data.runtimeconfig.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\bin\Debug\net7.0\ActuArte.Models.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\bin\Debug\net7.0\ActuArte.Models.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CopyComplete
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Data\obj\Debug\net7.0\ActuArte.Data.genruntimeconfig.cache
+C:\Users\PC\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.deps.json
+C:\Users\PC\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.runtimeconfig.json
+C:\Users\PC\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\PC\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\PC\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\PC\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfo.cs
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CopyComplete
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.dll
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\refint\ActuArte.Data.dll
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.genruntimeconfig.cache
+C:\Users\PC\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ref\ActuArte.Data.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.deps.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.runtimeconfig.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.csproj.AssemblyReference.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfoInputs.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfo.cs
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CoreCompileInputs.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CopyComplete
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\refint\ActuArte.Data.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.genruntimeconfig.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Data\obj\Debug\net7.0\ref\ActuArte.Data.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.deps.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.runtimeconfig.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.csproj.AssemblyReference.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfoInputs.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfo.cs
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CoreCompileInputs.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CopyComplete
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\refint\ActuArte.Data.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ActuArte.Data.genruntimeconfig.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Data\obj\Debug\net7.0\ref\ActuArte.Data.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\bin\Debug\net7.0\ActuArte.Data.deps.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\bin\Debug\net7.0\ActuArte.Data.runtimeconfig.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ActuArte.Data.csproj.AssemblyReference.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ActuArte.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfoInputs.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ActuArte.Data.AssemblyInfo.cs
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CoreCompileInputs.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ActuArte.Data.csproj.CopyComplete
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ActuArte.Data.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\refint\ActuArte.Data.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ActuArte.Data.genruntimeconfig.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Data\obj\Debug\net7.0\ref\ActuArte.Data.dll

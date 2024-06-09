@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Api\\ActuArte.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Api\\ActuArte.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Api\\ActuArte.Api.csproj",
+        "projectName": "ActuArte.Api",
+        "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Api\\ActuArte.Api.csproj",
+        "packagesPath": "C:\\Users\\acent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Business\\ActuArte.Business.csproj": {
+                "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Business\\ActuArte.Business.csproj"
+              },
+              "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Data\\ActuArte.Data.csproj": {
+                "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Data\\ActuArte.Data.csproj"
+              },
+              "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\ActuArte.Models.csproj": {
+                "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\ActuArte.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Business\\ActuArte.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Business\\ActuArte.Business.csproj",
+        "projectName": "ActuArte.Business",
+        "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Business\\ActuArte.Business.csproj",
+        "packagesPath": "C:\\Users\\acent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Data\\ActuArte.Data.csproj": {
+                "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Data\\ActuArte.Data.csproj"
+              },
+              "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\ActuArte.Models.csproj": {
+                "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\ActuArte.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Data\\ActuArte.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Data\\ActuArte.Data.csproj",
+        "projectName": "ActuArte.Data",
+        "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Data\\ActuArte.Data.csproj",
+        "packagesPath": "C:\\Users\\acent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\ActuArte.Models.csproj": {
+                "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\ActuArte.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\ActuArte.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\ActuArte.Models.csproj",
+        "projectName": "ActuArte.Models",
+        "projectPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\ActuArte.Models.csproj",
+        "packagesPath": "C:\\Users\\acent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acent\\Downloads\\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

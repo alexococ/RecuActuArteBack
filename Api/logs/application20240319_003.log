@@ -1,0 +1,552 @@
+2024-03-19 19:56:34.852 +01:00 [INF] Executed DbCommand (331ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Teatro];
+2024-03-19 19:56:35.044 +01:00 [INF] Executed DbCommand (160ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Teatro] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-03-19 19:56:35.069 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-19 19:56:35.120 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-03-19 19:56:35.125 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-19 19:56:35.137 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-19 19:56:35.144 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-03-19 19:56:35.155 +01:00 [INF] Applying migration '20240319185236_InitialCreate'.
+2024-03-19 19:56:35.203 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Asientos] (
+    [idAsiento] int NOT NULL IDENTITY,
+    [estaOcupado] bit NOT NULL,
+    CONSTRAINT [PK_Asientos] PRIMARY KEY ([idAsiento])
+);
+2024-03-19 19:56:35.207 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AsientosObrasDatos] (
+    [idObjeto] int NOT NULL IDENTITY,
+    [idObra] int NOT NULL,
+    [idSesion] int NOT NULL,
+    [idAsiento] int NOT NULL,
+    CONSTRAINT [PK_AsientosObrasDatos] PRIMARY KEY ([idObjeto])
+);
+2024-03-19 19:56:35.211 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Obras] (
+    [idObra] int NOT NULL IDENTITY,
+    [nombreObra] nvarchar(max) NOT NULL,
+    [imagen] nvarchar(max) NULL,
+    [descObra] nvarchar(max) NULL,
+    [valoracionObra] float NOT NULL,
+    [autorObra] nvarchar(max) NULL,
+    [directorObra] nvarchar(max) NULL,
+    [duracionObra] int NOT NULL,
+    [aclamadas] bit NOT NULL,
+    [recientes] bit NOT NULL,
+    [ultimasSesiones] bit NOT NULL,
+    CONSTRAINT [PK_Obras] PRIMARY KEY ([idObra])
+);
+2024-03-19 19:56:35.216 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Usuarios] (
+    [idUsuario] int NOT NULL IDENTITY,
+    [isAdmin] bit NOT NULL,
+    [nombreUsuario] nvarchar(max) NOT NULL,
+    [passwordUsuario] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Usuarios] PRIMARY KEY ([idUsuario])
+);
+2024-03-19 19:56:35.251 +01:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'idAsiento', N'estaOcupado') AND [object_id] = OBJECT_ID(N'[Asientos]'))
+    SET IDENTITY_INSERT [Asientos] ON;
+INSERT INTO [Asientos] ([idAsiento], [estaOcupado])
+VALUES (1, CAST(0 AS bit)),
+(2, CAST(0 AS bit)),
+(3, CAST(0 AS bit)),
+(4, CAST(0 AS bit)),
+(5, CAST(0 AS bit)),
+(6, CAST(0 AS bit)),
+(7, CAST(0 AS bit)),
+(8, CAST(0 AS bit)),
+(9, CAST(0 AS bit)),
+(10, CAST(0 AS bit)),
+(11, CAST(0 AS bit)),
+(12, CAST(0 AS bit)),
+(13, CAST(0 AS bit)),
+(14, CAST(0 AS bit)),
+(15, CAST(0 AS bit)),
+(16, CAST(0 AS bit)),
+(17, CAST(0 AS bit)),
+(18, CAST(0 AS bit)),
+(19, CAST(0 AS bit)),
+(20, CAST(0 AS bit)),
+(21, CAST(0 AS bit)),
+(22, CAST(0 AS bit)),
+(23, CAST(0 AS bit)),
+(24, CAST(0 AS bit)),
+(25, CAST(0 AS bit)),
+(26, CAST(0 AS bit)),
+(27, CAST(0 AS bit)),
+(28, CAST(0 AS bit)),
+(29, CAST(0 AS bit)),
+(30, CAST(0 AS bit)),
+(31, CAST(0 AS bit)),
+(32, CAST(0 AS bit)),
+(33, CAST(0 AS bit)),
+(34, CAST(0 AS bit)),
+(35, CAST(0 AS bit)),
+(36, CAST(0 AS bit)),
+(37, CAST(0 AS bit)),
+(38, CAST(0 AS bit)),
+(39, CAST(0 AS bit)),
+(40, CAST(0 AS bit)),
+(41, CAST(0 AS bit)),
+(42, CAST(0 AS bit));
+INSERT INTO [Asientos] ([idAsiento], [estaOcupado])
+VALUES (43, CAST(0 AS bit)),
+(44, CAST(0 AS bit)),
+(45, CAST(0 AS bit)),
+(46, CAST(0 AS bit)),
+(47, CAST(0 AS bit)),
+(48, CAST(0 AS bit)),
+(49, CAST(0 AS bit)),
+(50, CAST(0 AS bit)),
+(51, CAST(0 AS bit)),
+(52, CAST(0 AS bit)),
+(53, CAST(0 AS bit)),
+(54, CAST(0 AS bit));
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'idAsiento', N'estaOcupado') AND [object_id] = OBJECT_ID(N'[Asientos]'))
+    SET IDENTITY_INSERT [Asientos] OFF;
+2024-03-19 19:56:35.271 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'idObra', N'aclamadas', N'autorObra', N'descObra', N'directorObra', N'duracionObra', N'imagen', N'nombreObra', N'recientes', N'ultimasSesiones', N'valoracionObra') AND [object_id] = OBJECT_ID(N'[Obras]'))
+    SET IDENTITY_INSERT [Obras] ON;
+INSERT INTO [Obras] ([idObra], [aclamadas], [autorObra], [descObra], [directorObra], [duracionObra], [imagen], [nombreObra], [recientes], [ultimasSesiones], [valoracionObra])
+VALUES (1, CAST(1 AS bit), N'Nayra Calvo y Miguel A.Luengo', N'La excelente y lamentable tragedia de Romeo y Julieta cuenta la historia de dos jóvenes enamorados, Romeo y Julieta, quienes pertenecen a dos familias poderosas y enemigas de la ciudad renacentista de Verona, Italia: los Montesco y los Capuleto. Los protagonistas se conocen en un baile familiar de los Capuleto, en el que Romeo y sus amigos se cuelan, a pesar del peligro que corren y de que el rey de la ciudad ha decretado una frágil tregua entre las familias. Y tan pronto como bailan, Romeo y Julieta quedan perdidamente enamorados el uno del otro.', N'Franco Zeffirelli', 90, N'https://almeriaciudad.es/cultura/wp-content/archivos/sites/21/2022/02/IMG_2391-1.jpeg', N'Romeo y Julieta', CAST(0 AS bit), CAST(0 AS bit), 5.0E0),
+(2, CAST(0 AS bit), N'Nancy Fabiola Herrera y Carmen Romeu', N'Tras la muerte de su segundo esposo, Bernarda Alba se recluye e impone un luto riguroso y asfixiante por ocho años, prohibiendo a sus cinco hijas a que vayan a la fiesta. Cuando Angustias, la primogénita y la única hija del primer marido, hereda una fortuna, atrae a un pretendiente, Pepe el Romano.', N'Alfredo Sanzol', 60, N'https://chglenguayliteratura.files.wordpress.com/2020/01/aaaa.jpg', N'La Casa de Bernarda Alba', CAST(0 AS bit), CAST(0 AS bit), 4.2999999999999998E0),
+(3, CAST(1 AS bit), N'Cobadonga Calderon y Javier Mañon', N'La loca pasión por Melibea, hija de un rico mercader, lleva al joven Calisto a romper todas las barreras y a aliarse con una vieja alcahueta. Desde el momento en que entra en escena, Celestina avasalla toda la obra hasta convertirse en un personaje literario de fama universal.', N'Antonio Castro Guijosa', 60, N'https://www.cervantesvirtual.com/s3/BVMC_OBRAS/ffa/c66/288/2b1/11d/fac/c70/021/85c/e60/64/mimes/imagenes/ffac6628-82b1-11df-acc7-002185ce6064_2.jpg', N'La Celestina', CAST(1 AS bit), CAST(0 AS bit), 4.7000000000000002E0),
+(4, CAST(0 AS bit), N'David Luque y Rebeca Matellan', N'El rey Basilio va a tener un hijo. Pero un adivino le dice que ese nacimiento traerá el desastre al reino. En efecto, nada más nacer la madre muere, y el rey, asustado encierra a su hijo en una torre escondida entre montañas de forma que nadie sepa donde está. Solo Clotaldo, su ayo, conoce su paradero.', N'Declan Deonnellan', 100, N'https://www.elejandria.com/covers/La_vida_es_sueno-Calderon_de_la_Barca_Pedro-md.png', N'La Vida es Sueño', CAST(0 AS bit), CAST(0 AS bit), 4.4000000000000004E0),
+(5, CAST(1 AS bit), N'Juan Motilla y Antonio Campos', N'La tragedia de Hamlet, Príncipe de Dinamarca cuenta la historia del joven heredero al trono danés, cuyo padre muerto se le aparece como un fantasma en las murallas del castillo, para invocar su venganza, pues su muerte no fue natural sino que fue envenenado por su propia esposa Gertrudis, madre de Hamlet, y su hermano y actual rey, Claudio.', N'Miguel del Arco', 95, N'https://cdn.kobo.com/book-images/5fc4252b-1c4f-40ef-9975-22982c94f12c/1200/1200/False/hamlet-prince-of-denmark-23.jpg', N'Hamlet', CAST(1 AS bit), CAST(0 AS bit), 4.5E0),
+(6, CAST(0 AS bit), N'Manu Pilas y Gerónimo Raouch', N'Misterio y amor en las catacumbas de París. En los sótanos de la Ópera de París se esconde un misterioso personaje que oculta su rostro desfigurado. Este ser acecha por los camerinos y vigila a Christine, una inocente muchacha con gran talento de la que se ha enamorado. A través de un tenebroso y cruel personaje, Erik, atormentado por la deformidad de su rostro y su pasión por la belleza, y de los recovecos de un edificio, la Ópera de París, Leroux nos introduce en el mundo del otro lado del telón.', N'Federico Bellone', 150, N'https://teatroaranjuez.es/wp-content/uploads/2023/10/el-fantasma-de-la-opera-330x467-1.jpg', N'El Fantasma de la Ópera', CAST(1 AS bit), CAST(0 AS bit), 4.7999999999999998E0),
+(7, CAST(1 AS bit), N'Rafa Ramos y Jordi Millan', N'Narra los hechos que suceden durante el casamiento de Teseo, duque de Atenas, con Hipólita, reina de las amazonas. Incluye las aventuras de cuatro amantes atenienses y un grupo de seis actores aficionados que son controlados por las hadas que habitan en el bosque donde la mayor parte de la obra tiene lugar.', N'Marco Carniti', 90, N'https://image.isu.pub/190709204809-9c82f7fce8bb840f1ff3b5631eef637f/jpg/page_1.jpg', N'Sueño de una Noche de Verano', CAST(0 AS bit), CAST(0 AS bit), 4.2000000000000002E0),
+(8, CAST(0 AS bit), N'Francisco Fraguas y Amanda Recacha', N'Don Juan Tenorio es el personaje más célebre del teatro español. La historia de este burlador de mujeres comienza en los días de Carnaval y acaba en el Día de Difuntos. Don Juan es un seductor que se mofa de todos los valores sociales establecidos. Pero su vida cambiará al conocer a doña Inés. Gracias a su amor, el alma de don Juan se salvará de las llamas del infierno.', N'Pedro Amalio Lopez', 100, N'https://m.media-amazon.com/images/I/61Er0I3cJaL._AC_UF1000,1000_QL80_.jpg', N'Don Juan Tenorio', CAST(0 AS bit), CAST(0 AS bit), 4.2999999999999998E0),
+(9, CAST(1 AS bit), N'Blanca Apilanez y Juan José Otegui', N'El pueblo de Fuente Ovejuna, ya está harto de la crueldad de su señor, que no hace más que fastidiarlos, ya sea reclutando jóvenes para sus guerras, o deshonrando a sus mujeres, y esta es la gota que colma el vaso de su paciencia, así que deciden intervenir y matar al Comendador.', N'Adolfo Marsillat', 90, N'https://m.media-amazon.com/images/I/418RabpIZVS.jpg', N'Fuenteovejuna', CAST(0 AS bit), CAST(0 AS bit), 4.5E0),
+(10, CAST(1 AS bit), N'Alejandro Centro y Daniel Valdovinos', N'Es una obra humana que refleja el peregrinaje del ser humano en busca de “la Luz”, es el descubrimiento del hombre hacia Dios, con la ayuda de la razón (Virgilio) y de la fe (Beatriz). El poema es una epopeya religiosa que narra con realismo un viaje, es un canto a la humanidad.', N'Dante', 110, N'https://m.media-amazon.com/images/I/71WJbXGxPdL._AC_UF1000,1000_QL80_.jpg', N'La Divina Comedia', CAST(1 AS bit), CAST(0 AS bit), 5.0E0),
+(11, CAST(0 AS bit), N'Eduardo Tovar y Virginia Sanchez', N'Argán se cree muy enfermo y no puede vivir sin estar rodeado de médicos. Para conseguir tener uno en su familia que le haga ahorrar la ingente cantidad de dinero que destina a sus curas, medicamentos y potingues, no duda en concertar un matrimonio de conveniencia entre su hija Angélica con el hijo del doctor Diafoirus.', N'Eva del Palacio', 70, N'https://www.tarambana.net/upload/espectaculos/foto_poster-1296.jpg?id=117364', N'El enfermo imaginario', CAST(0 AS bit), CAST(0 AS bit), 4.7000000000000002E0),
+(12, CAST(1 AS bit), N'Tailor Swoft y Jason Derulo', N'Esta obra musical es una de las más célebres de Broadway. Fue creada por el legendario Andrew Lloyd Weber, quien a su vez se basó en los poemas de T. S. Eliot, «El libro de los gatos habilidosos del viejo Possum». Relata la historia de los Jellicle Cats, un grupo de gatos callejeros que poco a poco se va presentando ante el público, en medio de impresionantes números musicales.', N'Trevor Nunn', 120, N'https://upload.wikimedia.org/wikipedia/en/3/30/Cats_1998_DVD_Cover.jpg', N'Cats', CAST(1 AS bit), CAST(0 AS bit), 4.2999999999999998E0),
+(13, CAST(0 AS bit), N'Arianna Grande y Adam James', N'Narra la historia de Elphaba, una niña nacida de color verde y cómo se convierte en la Malvada Bruja del Oeste, pasando por los sucesos que experimenta desde su nacimiento, infancia y juventud en la Universidad de Shiz hasta llegar a la edad adulta, momento de la llegada de Dorothy a la tierra de Oz.', N'Joe Mantello', 165, N'https://m.media-amazon.com/images/M/MV5BNjczYjBhMTctYTA3Yy00NTgyLWFkZWQtZjQwYTRkMDc1YTc1XkEyXkFqcGdeQXVyNTk5NTQzNDI@._V1_.jpg', N'Wicked', CAST(0 AS bit), CAST(1 AS bit), 4.7000000000000002E0),
+(14, CAST(1 AS bit), N'Miguel del Arco y Gemma Castaño', N'Es la historia de Jean Valjean, un convicto que estuvo injustamente encarcelado por 19 años por haberse robado una rebanada de pan. Al ser liberado de su injusta condena, Valjean trata de escapar de su pasado, lleno de maldad y depravación, para vivir una vida digna y honesta.', N'David White', 210, N'https://m.media-amazon.com/images/I/517Cb2FS4qL.jpg', N'Los Miserables', CAST(0 AS bit), CAST(1 AS bit), 4.7999999999999998E0),
+(15, CAST(0 AS bit), N' Nayra Calvo y Miguel A.Luengo', N'En Casa de muñecas Ibsen aborda el problema de la situación de la mujer de la pequeña burguesía en la sociedad de su tiempo. Nora, la protagonista, es el retrato de las mujeres de su clase y puede ofrecer un retrato con mucha actualidad para las mujeres inmersas en la vorágine del mundo contemporáneo.', N'Franco Zeffirelli', 100, N'https://images.cdn3.buscalibre.com/fit-in/360x360/ef/99/ef9995dc7f336bc670c2775b7316b143.jpg', N'Casa de Muñecas', CAST(0 AS bit), CAST(1 AS bit), 4.5999999999999996E0),
+(16, CAST(1 AS bit), N' Carmelo Gomez y Joaquin Notario', N'En el alcalde de Zalamea, se cuenta la venganza del Alcalde Pedro Crespo, que da muerte a don Álvaro, el arrogante capitán que ha secuestrado a su hija. Esta reacción no se percibe como el resultado de aplicar un código rígido y bárbaro, sino como una reacción justa que será aprobada por el rey.', N'Miguel Nieto', 90, N'https://m.media-amazon.com/images/I/51fM26seM-L.jpg', N'El alcalde de Zalamea', CAST(0 AS bit), CAST(1 AS bit), 4.0999999999999996E0);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'idObra', N'aclamadas', N'autorObra', N'descObra', N'directorObra', N'duracionObra', N'imagen', N'nombreObra', N'recientes', N'ultimasSesiones', N'valoracionObra') AND [object_id] = OBJECT_ID(N'[Obras]'))
+    SET IDENTITY_INSERT [Obras] OFF;
+2024-03-19 19:56:35.287 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'idUsuario', N'isAdmin', N'nombreUsuario', N'passwordUsuario') AND [object_id] = OBJECT_ID(N'[Usuarios]'))
+    SET IDENTITY_INSERT [Usuarios] ON;
+INSERT INTO [Usuarios] ([idUsuario], [isAdmin], [nombreUsuario], [passwordUsuario])
+VALUES (1, CAST(0 AS bit), N'admin', N'admin'),
+(2, CAST(0 AS bit), N'admin2', N'admin'),
+(3, CAST(0 AS bit), N'admin3', N'admin'),
+(4, CAST(0 AS bit), N'admin4', N'admin');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'idUsuario', N'isAdmin', N'nombreUsuario', N'passwordUsuario') AND [object_id] = OBJECT_ID(N'[Usuarios]'))
+    SET IDENTITY_INSERT [Usuarios] OFF;
+2024-03-19 19:56:35.292 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240319185236_InitialCreate', N'7.0.0');
+2024-03-19 18:57:34.648 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2024-03-19 18:57:34.679 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-03-19 18:57:34.735 +00:00 [INF] Creating key {1c1bc365-329a-4ba6-8b5b-d244147dd960} with creation date 2024-03-19 18:57:34Z, activation date 2024-03-19 18:57:34Z, and expiration date 2024-06-17 18:57:34Z.
+2024-03-19 18:57:34.748 +00:00 [WRN] No XML encryptor configured. Key {1c1bc365-329a-4ba6-8b5b-d244147dd960} may be persisted to storage in unencrypted form.
+2024-03-19 18:57:34.751 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-1c1bc365-329a-4ba6-8b5b-d244147dd960.xml'.
+2024-03-19 18:57:34.804 +00:00 [INF] Now listening on: http://[::]:80
+2024-03-19 18:57:34.806 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-19 18:57:34.807 +00:00 [INF] Hosting environment: Production
+2024-03-19 18:57:34.807 +00:00 [INF] Content root path: /app
+2024-03-19 18:57:41.159 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 18:57:41.246 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 88.1335ms
+2024-03-19 18:57:41.258 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - -
+2024-03-19 18:57:41.258 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - -
+2024-03-19 18:57:41.260 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - -
+2024-03-19 18:57:41.277 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-19 18:57:41.277 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-19 18:57:41.277 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-19 18:57:41.280 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 21.8071ms
+2024-03-19 18:57:41.280 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 21.8240ms
+2024-03-19 18:57:41.280 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - - - 200 144929 text/css 20.3202ms
+2024-03-19 18:57:41.334 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 18:57:41.345 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - -
+2024-03-19 18:57:41.346 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-19 18:57:41.346 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - - - 200 628 image/png 1.3370ms
+2024-03-19 18:57:41.405 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.2639ms
+2024-03-19 18:57:49.760 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8001/Auth/login application/json 60
+2024-03-19 18:57:49.764 +00:00 [WRN] Failed to determine the https port for redirect.
+2024-03-19 18:57:49.779 +00:00 [INF] CORS policy execution failed.
+2024-03-19 18:57:49.779 +00:00 [INF] Request origin http://localhost:8001 does not have permission to access the resource.
+2024-03-19 18:57:49.782 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.AuthController.Login (ActuArte.Api)'
+2024-03-19 18:57:49.797 +00:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ActuArte.Models.UsuariosDTO) on controller ActuArte.Controllers.AuthController (ActuArte.Api).
+2024-03-19 18:57:50.321 +00:00 [ERR] An error occurred using the connection to database '' on server ''.
+2024-03-19 18:57:50.329 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ActuArte.Data.ActuArteContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-19 18:57:50.331 +00:00 [ERR] Error de autenticación
+2024-03-19 18:57:50.334 +00:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-03-19 18:57:50.337 +00:00 [INF] Executed action ActuArte.Controllers.AuthController.Login (ActuArte.Api) in 537.572ms
+2024-03-19 18:57:50.339 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.AuthController.Login (ActuArte.Api)'
+2024-03-19 18:57:50.344 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8001/Auth/login application/json 60 - 500 - text/plain;+charset=utf-8 584.0895ms
+2024-03-19 18:59:17.723 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 18:59:17.724 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 1.5221ms
+2024-03-19 18:59:17.802 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 18:59:17.807 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.0151ms
+2024-03-19 18:59:28.517 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8001/Auth/login application/json 60
+2024-03-19 18:59:28.519 +00:00 [INF] CORS policy execution failed.
+2024-03-19 18:59:28.520 +00:00 [INF] Request origin http://localhost:8001 does not have permission to access the resource.
+2024-03-19 18:59:28.520 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.AuthController.Login (ActuArte.Api)'
+2024-03-19 18:59:28.521 +00:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ActuArte.Models.UsuariosDTO) on controller ActuArte.Controllers.AuthController (ActuArte.Api).
+2024-03-19 18:59:28.536 +00:00 [ERR] An error occurred using the connection to database '' on server ''.
+2024-03-19 18:59:28.537 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ActuArte.Data.ActuArteContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-19 18:59:28.538 +00:00 [ERR] Error de autenticación
+2024-03-19 18:59:28.538 +00:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-03-19 18:59:28.539 +00:00 [INF] Executed action ActuArte.Controllers.AuthController.Login (ActuArte.Api) in 17.6779ms
+2024-03-19 18:59:28.539 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.AuthController.Login (ActuArte.Api)'
+2024-03-19 18:59:28.540 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8001/Auth/login application/json 60 - 500 - text/plain;+charset=utf-8 23.2414ms
+2024-03-19 18:59:56.999 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 18:59:57.000 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 1.1070ms
+2024-03-19 18:59:57.008 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - -
+2024-03-19 18:59:57.008 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - -
+2024-03-19 18:59:57.009 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - -
+2024-03-19 18:59:57.009 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-19 18:59:57.011 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - - - 200 144929 text/css 2.6505ms
+2024-03-19 18:59:57.011 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-19 18:59:57.011 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-19 18:59:57.012 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 2.6752ms
+2024-03-19 18:59:57.012 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 3.9096ms
+2024-03-19 18:59:57.379 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 18:59:57.380 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - -
+2024-03-19 18:59:57.380 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-19 18:59:57.381 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - - - 200 628 image/png 0.9349ms
+2024-03-19 18:59:57.383 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.2879ms
+2024-03-19 19:00:05.259 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8001/Auth/login application/json 60
+2024-03-19 19:00:05.260 +00:00 [INF] CORS policy execution failed.
+2024-03-19 19:00:05.261 +00:00 [INF] Request origin http://localhost:8001 does not have permission to access the resource.
+2024-03-19 19:00:05.261 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.AuthController.Login (ActuArte.Api)'
+2024-03-19 19:00:05.262 +00:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ActuArte.Models.UsuariosDTO) on controller ActuArte.Controllers.AuthController (ActuArte.Api).
+2024-03-19 19:00:05.305 +00:00 [ERR] An error occurred using the connection to database '' on server ''.
+2024-03-19 19:00:05.306 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ActuArte.Data.ActuArteContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-19 19:00:05.307 +00:00 [ERR] Error de autenticación
+2024-03-19 19:00:05.308 +00:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-03-19 19:00:05.308 +00:00 [INF] Executed action ActuArte.Controllers.AuthController.Login (ActuArte.Api) in 46.0928ms
+2024-03-19 19:00:05.309 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.AuthController.Login (ActuArte.Api)'
+2024-03-19 19:00:05.309 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8001/Auth/login application/json 60 - 500 - text/plain;+charset=utf-8 50.0913ms
+2024-03-19 19:02:00.016 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/index.html - -
+2024-03-19 19:02:00.017 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/index.html - - - 200 - text/html;charset=utf-8 1.1435ms
+2024-03-19 19:02:00.025 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - -
+2024-03-19 19:02:00.027 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - -
+2024-03-19 19:02:00.027 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - -
+2024-03-19 19:02:00.027 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-19 19:02:00.027 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui.css - - - 200 144929 text/css 2.3384ms
+2024-03-19 19:02:00.028 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-19 19:02:00.028 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 1.6620ms
+2024-03-19 19:02:00.029 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-19 19:02:00.029 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 2.8830ms
+2024-03-19 19:02:00.364 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - -
+2024-03-19 19:02:00.365 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - -
+2024-03-19 19:02:00.365 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-19 19:02:00.366 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/favicon-32x32.png - - - 200 628 image/png 0.9417ms
+2024-03-19 19:02:00.368 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.3426ms
+2024-03-19 19:02:07.733 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8001/Auth/login application/json 60
+2024-03-19 19:02:07.733 +00:00 [INF] CORS policy execution failed.
+2024-03-19 19:02:07.734 +00:00 [INF] Request origin http://localhost:8001 does not have permission to access the resource.
+2024-03-19 19:02:07.735 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.AuthController.Login (ActuArte.Api)'
+2024-03-19 19:02:07.735 +00:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ActuArte.Models.UsuariosDTO) on controller ActuArte.Controllers.AuthController (ActuArte.Api).
+2024-03-19 19:02:07.737 +00:00 [ERR] An error occurred using the connection to database '' on server ''.
+2024-03-19 19:02:07.738 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ActuArte.Data.ActuArteContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-19 19:02:07.739 +00:00 [ERR] Error de autenticación
+2024-03-19 19:02:07.739 +00:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-03-19 19:02:07.739 +00:00 [INF] Executed action ActuArte.Controllers.AuthController.Login (ActuArte.Api) in 3.8341ms
+2024-03-19 19:02:07.740 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.AuthController.Login (ActuArte.Api)'
+2024-03-19 19:02:07.740 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8001/Auth/login application/json 60 - 500 - text/plain;+charset=utf-8 7.3408ms
+2024-03-19 19:05:44.358 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/Obras - -
+2024-03-19 19:05:44.359 +00:00 [INF] CORS policy execution successful.
+2024-03-19 19:05:44.360 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api)'
+2024-03-19 19:05:44.364 +00:00 [INF] Route matched with {action = "GetAll", controller = "Obras"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ActuArte.Models.Obras]] GetAll() on controller ActuArte.Controllers.ObrasController (ActuArte.Api).
+2024-03-19 19:05:44.391 +00:00 [ERR] An error occurred using the connection to database '' on server ''.
+2024-03-19 19:05:44.392 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ActuArte.Data.ActuArteContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-19 19:05:44.394 +00:00 [INF] Executed action ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api) in 29.4779ms
+2024-03-19 19:05:44.395 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api)'
+2024-03-19 19:05:44.397 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ActuArte.Data.ObrasRepository.GetAll() in /app/Data/Repository/ObrasRepository.cs:line 20
+   at lambda_method36(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-03-19 19:05:44.406 +00:00 [INF] CORS policy execution successful.
+2024-03-19 19:05:44.408 +00:00 [ERR] Connection id "0HN288PQ0EHQ5", Request id "0HN288PQ0EHQ5:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ActuArte.Data.ObrasRepository.GetAll() in /app/Data/Repository/ObrasRepository.cs:line 20
+   at lambda_method36(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2024-03-19 19:05:44.412 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/Obras - - - 500 0 - 53.8090ms
+2024-03-19 19:06:04.953 +00:00 [INF] Application is shutting down...

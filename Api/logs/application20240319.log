@@ -1,0 +1,22 @@
+2024-03-19 17:46:26.535 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2024-03-19 17:46:26.564 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-03-19 17:46:26.603 +00:00 [INF] Creating key {2c2795b6-b2ce-413a-8de4-052236d41a1d} with creation date 2024-03-19 17:46:26Z, activation date 2024-03-19 17:46:26Z, and expiration date 2024-06-17 17:46:26Z.
+2024-03-19 17:46:26.612 +00:00 [WRN] No XML encryptor configured. Key {2c2795b6-b2ce-413a-8de4-052236d41a1d} may be persisted to storage in unencrypted form.
+2024-03-19 17:46:26.615 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-2c2795b6-b2ce-413a-8de4-052236d41a1d.xml'.
+2024-03-19 17:46:26.651 +00:00 [INF] Now listening on: http://[::]:80
+2024-03-19 17:46:26.653 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-19 17:46:26.654 +00:00 [INF] Hosting environment: Production
+2024-03-19 17:46:26.655 +00:00 [INF] Content root path: /app
+2024-03-19 17:46:39.133 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8001/Obras - -
+2024-03-19 17:46:39.150 +00:00 [WRN] Failed to determine the https port for redirect.
+2024-03-19 17:46:39.171 +00:00 [INF] CORS policy execution successful.
+2024-03-19 17:46:39.174 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api)'
+2024-03-19 17:46:39.190 +00:00 [INF] Route matched with {action = "GetAll", controller = "Obras"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ActuArte.Models.Obras]] GetAll() on controller ActuArte.Controllers.ObrasController (ActuArte.Api).
+2024-03-19 17:46:40.554 +00:00 [INF] Executed DbCommand (151ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[idObra], [o].[aclamadas], [o].[autorObra], [o].[descObra], [o].[directorObra], [o].[duracionObra], [o].[imagen], [o].[nombreObra], [o].[recientes], [o].[ultimasSesiones], [o].[valoracionObra]
+FROM [Obras] AS [o]
+2024-03-19 17:46:40.599 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ActuArte.Models.Obras, ActuArte.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 17:46:40.657 +00:00 [INF] Executed action ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api) in 1464.5872ms
+2024-03-19 17:46:40.658 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api)'
+2024-03-19 17:46:40.664 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8001/Obras - - - 200 - application/json;+charset=utf-8 1531.9358ms
+2024-03-19 17:46:51.886 +00:00 [INF] Application is shutting down...

@@ -1,0 +1,373 @@
+{
+	"info": {
+		"_postman_id": "2ceeb1e1-9401-4733-b6a2-96aceefe58ce",
+		"name": "Test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33595526"
+	},
+	"item": [
+		{
+			"name": "200",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "DevolverObras",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obras",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obras"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obras/{{idObra}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obras",
+										"{{idObra}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DevolverAsientos",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Asientos",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Asientos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "AsientosID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Asientos/{{idAsiento}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Asientos",
+										"{{idAsiento}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DevolverUsuarios",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Usuarios/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Usuarios",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UsuarioID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Usuarios/{{idUsuario}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Usuarios",
+										"{{idUsuario}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasAclamadas",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obras/aclamadas",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obras",
+										"aclamadas"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasRecientes",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obras/recientes",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obras",
+										"recientes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasUltimasSesiones",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obras/ultimasSesiones",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obras",
+										"ultimasSesiones"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DevolverAsientos",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/Obras/1/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obras",
+										"1",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "AñadirAsientos",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n    0,1,2\r\n]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/Obras/1/Sesion/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obras",
+										"1",
+										"Sesion",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "LoginUsuario",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"nombreUsuario\": \"admin\",\r\n  \"passwordUsuario\": \"admin\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/Usuarios/login",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Usuarios",
+										"login"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "404",
+			"item": [
+				{
+					"name": "ObraNoEncontrada",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Obras/18",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Obras",
+								"18"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UsuarioNoEncontrado",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Usuarios/5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Usuarios",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AsientoNoEncontrado",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Asientos/55",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Asientos",
+								"55"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "localhost:8001",
+			"type": "string"
+		},
+		{
+			"key": "idObra",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "idAsiento",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "idUsuario",
+			"value": "1",
+			"type": "string"
+		}
+	]
+}

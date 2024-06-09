@@ -1,0 +1,36 @@
+2024-03-20 20:28:07.560 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2024-03-20 20:28:07.595 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-03-20 20:28:07.635 +00:00 [INF] Creating key {d7e3a636-3289-4a44-b550-09655a0f93d1} with creation date 2024-03-20 20:28:07Z, activation date 2024-03-20 20:28:07Z, and expiration date 2024-06-18 20:28:07Z.
+2024-03-20 20:28:07.645 +00:00 [WRN] No XML encryptor configured. Key {d7e3a636-3289-4a44-b550-09655a0f93d1} may be persisted to storage in unencrypted form.
+2024-03-20 20:28:07.648 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-d7e3a636-3289-4a44-b550-09655a0f93d1.xml'.
+2024-03-20 20:28:07.684 +00:00 [INF] Now listening on: http://[::]:80
+2024-03-20 20:28:07.686 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 20:28:07.687 +00:00 [INF] Hosting environment: Production
+2024-03-20 20:28:07.687 +00:00 [INF] Content root path: /app
+2024-03-20 20:30:23.447 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8003/swagger/index.html - -
+2024-03-20 20:30:23.558 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8003/swagger/index.html - - - 200 - text/html;charset=utf-8 111.9671ms
+2024-03-20 20:30:23.587 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8003/swagger/swagger-ui-bundle.js - -
+2024-03-20 20:30:23.588 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8003/swagger/swagger-ui.css - -
+2024-03-20 20:30:23.595 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8003/swagger/swagger-ui-standalone-preset.js - -
+2024-03-20 20:30:23.681 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-20 20:30:23.681 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-20 20:30:23.685 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8003/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 90.1652ms
+2024-03-20 20:30:23.687 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8003/swagger/swagger-ui.css - - - 200 144929 text/css 97.7611ms
+2024-03-20 20:30:23.690 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-20 20:30:23.691 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8003/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 103.6603ms
+2024-03-20 20:30:23.877 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8003/swagger/v1/swagger.json - -
+2024-03-20 20:30:23.898 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8003/swagger/favicon-32x32.png - -
+2024-03-20 20:30:23.899 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-20 20:30:23.900 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8003/swagger/favicon-32x32.png - - - 200 628 image/png 2.2561ms
+2024-03-20 20:30:23.947 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8003/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.5990ms
+2024-03-20 20:30:33.448 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8003/Obras - -
+2024-03-20 20:30:33.461 +00:00 [WRN] Failed to determine the https port for redirect.
+2024-03-20 20:30:33.483 +00:00 [INF] Executing endpoint 'ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api)'
+2024-03-20 20:30:33.496 +00:00 [INF] Route matched with {action = "GetAll", controller = "Obras"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ActuArte.Models.Obras]] GetAll() on controller ActuArte.Controllers.ObrasController (ActuArte.Api).
+2024-03-20 20:30:34.240 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[idObra], [o].[aclamadas], [o].[autorObra], [o].[descObra], [o].[directorObra], [o].[duracionObra], [o].[imagen], [o].[nombreObra], [o].[recientes], [o].[ultimasSesiones], [o].[valoracionObra]
+FROM [Obras] AS [o]
+2024-03-20 20:30:34.288 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ActuArte.Models.Obras, ActuArte.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-20 20:30:34.300 +00:00 [INF] Executed action ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api) in 801.8891ms
+2024-03-20 20:30:34.301 +00:00 [INF] Executed endpoint 'ActuArte.Controllers.ObrasController.GetAll (ActuArte.Api)'
+2024-03-20 20:30:34.306 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8003/Obras - - - 200 - application/json;+charset=utf-8 858.4739ms

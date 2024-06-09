@@ -1,0 +1,512 @@
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\appsettings.Development.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\appsettings.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Api.exe
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Api.deps.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Api.runtimeconfig.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Api.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Api.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.csproj.AssemblyReference.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfoInputs.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfo.cs
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\staticwebassets\msbuild.ActuArte.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.ActuArte.Api.props
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ActuArte.Api.props
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ActuArte.Api.props
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\staticwebassets.build.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\staticwebassets.development.json
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\scopedcss\bundle\ActuArte.Api.styles.css
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CopyComplete
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\refint\ActuArte.Api.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ActuArte.Api.genruntimeconfig.cache
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\obj\Debug\net7.0\ref\ActuArte.Api.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Azure.Core.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Azure.Identity.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Humanizer.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.CodeDom.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Business.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Data.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Models.dll
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Business.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Models.pdb
+D:\Nueva carpeta\Nueva carpeta\ActuArte\Api\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\appsettings.json
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.exe
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.deps.json
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.runtimeconfig.json
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.pdb
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Business.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\PC\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfo.cs
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.ActuArte.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.ActuArte.Api.props
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ActuArte.Api.props
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ActuArte.Api.props
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\scopedcss\bundle\ActuArte.Api.styles.css
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CopyComplete
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\refint\ActuArte.Api.dll
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.pdb
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.genruntimeconfig.cache
+C:\Users\PC\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ref\ActuArte.Api.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\appsettings.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.exe
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.deps.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.runtimeconfig.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Business.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.csproj.AssemblyReference.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfoInputs.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfo.cs
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CoreCompileInputs.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.ActuArte.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.ActuArte.Api.props
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ActuArte.Api.props
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ActuArte.Api.props
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\scopedcss\bundle\ActuArte.Api.styles.css
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CopyComplete
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\refint\ActuArte.Api.dll
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.pdb
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.genruntimeconfig.cache
+C:\Users\acent\OneDrive\Escritorio\ActuArteBack\Api\obj\Debug\net7.0\ref\ActuArte.Api.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\appsettings.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.exe
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.deps.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.runtimeconfig.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Api.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Business.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.csproj.AssemblyReference.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfoInputs.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfo.cs
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CoreCompileInputs.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.ActuArte.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.ActuArte.Api.props
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ActuArte.Api.props
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ActuArte.Api.props
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\scopedcss\bundle\ActuArte.Api.styles.css
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CopyComplete
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\refint\ActuArte.Api.dll
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.pdb
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ActuArte.Api.genruntimeconfig.cache
+C:\Users\S2-PC00\Desktop\ActuArteBack\Api\obj\Debug\net7.0\ref\ActuArte.Api.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\PC\desktop\ActuArteBack\Api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\appsettings.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Api.exe
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Api.deps.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Api.runtimeconfig.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Api.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Api.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Business.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Data.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Models.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Business.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Models.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\bin\Debug\net7.0\ActuArte.Data.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.csproj.AssemblyReference.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfoInputs.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.AssemblyInfo.cs
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CoreCompileInputs.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\staticwebassets\msbuild.ActuArte.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.ActuArte.Api.props
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ActuArte.Api.props
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ActuArte.Api.props
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\scopedcss\bundle\ActuArte.Api.styles.css
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.csproj.CopyComplete
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\refint\ActuArte.Api.dll
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.pdb
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ActuArte.Api.genruntimeconfig.cache
+C:\Users\acent\Downloads\ActuArteBack-581bd1f3da50416e56577f92f2e1d7d8e776160d\Api\obj\Debug\net7.0\ref\ActuArte.Api.dll
